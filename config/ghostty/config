@@ -1,0 +1,61 @@
+# —— 字体 ——
+font-family = Maple Mono NF CN
+font-size = 13
+font-thicken = true
+font-feature = +calt
+font-feature = +liga
+
+# —— 主题 / 配色 ——
+theme = light:Tomorrow,dark:Tomorrow Night
+background-opacity = 0.88
+background-blur-radius = 20
+window-colorspace = display-p3
+unfocused-split-opacity = 0.85
+
+# —— 窗口 ——
+window-width = 160
+window-height = 50
+window-padding-x = 12
+window-padding-y = 10
+window-padding-balance = true
+window-padding-color = extend
+window-save-state = always
+window-inherit-working-directory = true
+window-theme = auto
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+confirm-close-surface = false
+
+# —— 光标 ——
+cursor-style = bar
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+# —— Shell / 交互 ——
+shell-integration = detect
+shell-integration-features = cursor,sudo,title,ssh-env,ssh-terminfo
+copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
+scrollback-limit = 100000
+focus-follows-mouse = true
+link-url = true
+
+# —— 快捷键 ——
+keybind = cmd+t=new_tab
+keybind = cmd+w=close_surface
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+alt+left=goto_split:left
+keybind = cmd+alt+right=goto_split:right
+keybind = cmd+alt+up=goto_split:up
+keybind = cmd+alt+down=goto_split:down
+keybind = cmd+shift+enter=toggle_split_zoom
+keybind = cmd+k=clear_screen
+keybind = cmd+shift+r=reload_config
+
+# —— Quick Terminal ——
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.2
+quick-terminal-autohide = true
+quick-terminal-space-behavior = remain
