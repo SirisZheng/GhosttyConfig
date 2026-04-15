@@ -1,0 +1,2 @@
+# GhosttyConfig
+Personal Ghostty configuration
